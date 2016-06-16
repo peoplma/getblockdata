@@ -1,5 +1,9 @@
 # getblockdata
 
+This program pulls the following information about the blocks in the blockchain from your own node in range of blocks you specify.
+
+    height, reward, block hash, size, number of transactions, version, merkleroot, UNIX timestamp (UTC), nonce, bits, difficulty, chainwork
+
 First you'll need to install jgarzik's python-bitcoinrpc with:
 
     git clone https://github.com/jgarzik/python-bitcoinrpc
